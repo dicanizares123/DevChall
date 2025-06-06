@@ -1,0 +1,269 @@
+
+/* Variables */
+
+:root{
+    --main-c: aqua;
+    --border-r:.2rem;
+} 
+
+html *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} 
+
+p{
+    font-size: 1.1rem;
+} 
+
+a{
+    text-decoration: none;
+
+} 
+
+ul,li{
+    list-style: none;
+
+}
+
+/* Dimension del envoltorio */
+
+.wrap-cta{
+    padding:1.5rem 0;
+
+} 
+
+/* Boton */
+
+.cta-a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-r);
+
+} 
+
+h1{
+    font-size: 2.8rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+/* Header */
+
+.header-landing{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding: 0.25rem;
+} 
+
+.logo-header{
+    max-width: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero-section{
+    height: 90vh;
+    background: url(img/luca-bravo-XJXWbfSo2f0-unsplash-896x504.webp);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply; 
+    display: flex;
+    align-items: center;
+
+} 
+
+.wrap-hero-section{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+} 
+
+/* Patrocinadores logos */ 
+
+.section{
+    margin: 5rem 0;
+} 
+
+.section h2{
+    padding: 2rem 0;
+} 
+.wrap-logos-section{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center; 
+} 
+
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem; 
+    filter: grayscale(1);
+} 
+
+/* Wrap Title */ 
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+
+/* Card */
+
+.wrap-servicios-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; /* Espacio entre cards */
+}
+
+.card-servicio {
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box; /* muy importante */
+}
+
+.card-servicio img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.card-servicio h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-servicio p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+/* Two Columns Section */ 
+
+.wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+.wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+} 
+
+.wrap-text-column p{
+    padding-bottom: 1rem;
+} 
+
+/* Section Formulario */
+
+section.two-column-section.form{
+    padding: 3rem 0;
+} 
+
+.form input, .form textarea{
+    display: flex;
+    width: 100%;
+    line-height: 1.75rem;
+    border: 1.5px solid #000000;
+    border-radius: var(--border-r);
+} 
+
+.form textarea{
+    min-height: 200px;
+} 
+
+input[type="submit"]{
+    border:0;
+    display:inline; 
+    cursor: pointer;
+} 
+
+/* Footer */
+
+.footer-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+
+}
+
+
+.menu-footer-section{
+    padding: 1rem 0;
+}
+
+.wrap-social-logos ul, .wrap-menu-footer-section ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-logo{
+    max-width: 75px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding: 1.5rem;
+}
+
+.footer-creds{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #baeeff;
+    width: 100%;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
