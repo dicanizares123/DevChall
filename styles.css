@@ -75,7 +75,7 @@ h3{
 
 
 .hero-section{
-    height: 90vh;
+    height: 90vh; /* altura de la ventana visible del navegador */
     background: url(img/luca-bravo-XJXWbfSo2f0-unsplash-896x504.webp);
     background-position: center; 
     background-repeat: no-repeat;
@@ -159,8 +159,6 @@ h3{
   font-size: 0.95rem;
   color: #555;
 }
-
-
 
 
 .container {
